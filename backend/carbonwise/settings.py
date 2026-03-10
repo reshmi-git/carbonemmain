@@ -80,9 +80,7 @@ REST_FRAMEWORK = {
 
 # ── AI API CONFIGURATION ─────────────────────────
 # Using Groq (FREE — sign up at console.groq.com)
-#GROQ_API_KEY = os.environ.get('GROQ_API_KEY', 'npm run dev')
-GROQ_API_KEY =''
-
+GROQ_API_KEY = os.environ.get('GROQ_API_KEY', 'npm run dev')
 GROQ_MODEL   = 'llama-3.3-70b-versatile'
 
 # Alternative free options (uncomment to use):
